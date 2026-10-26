@@ -39,6 +39,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
             "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -86,6 +87,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
              "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -150,6 +152,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
             "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -215,6 +218,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
             "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -265,6 +269,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
             "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -350,7 +355,10 @@
                         "BackoffRate": 1
                       },
                       {
-                        "ErrorEquals": ["Lambda.Unknown"],
+                        "ErrorEquals": [
+                          "Sandbox.Timedout",
+                          "Lambda.Unknown"
+                        ],
                         "BackoffRate": 2,
                         "IntervalSeconds": 2,
                         "MaxAttempts": 2
@@ -408,6 +416,7 @@
                       },
                       {
                         "ErrorEquals": [
+                          "Sandbox.Timedout",
                           "Lambda.Unknown"
                        ],
                         "BackoffRate": 2,
@@ -483,6 +492,7 @@
         },
         {
           "ErrorEquals": [
+            "Sandbox.Timedout",
             "Lambda.Unknown"
           ],
           "BackoffRate": 2,
@@ -552,6 +562,7 @@
               },
               {
                 "ErrorEquals": [
+                  "Sandbox.Timedout",
                   "Lambda.Unknown"
                 ],
                 "BackoffRate": 2,

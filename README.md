@@ -121,6 +121,8 @@ This module uses the following input variables:
 | harmony_job_status_max_attempts      | number       | Maximum number of attempts to check Harmony job status                                                                           | 15                                                                  |
 | harmony_job_status_backoff_rate      | number       | Backoff rate for Harmony job status checks                                                                                       | 1.0                                                                 |
 | harmony_job_status_max_delay_seconds | number       | Maximum delay in seconds for Harmony job status checks                                                                           | 20                                                                  |
+| lambda_timeouts                      | map(number)  | Configurable map of lambda timeouts                                                                           | {}                                                                   |
+| lambda_memory_sizes                  | map(number)  | Configurable map of lambda memory sizes                                                                           | {}                                                                   |
 
 ## Module Outputs
 

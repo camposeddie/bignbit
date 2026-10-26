@@ -106,13 +106,13 @@ variable "harmony_job_status_max_delay_seconds" {
 }
 
 variable "lambda_timeouts" {
-  type = map(number)
+  type        = map(number)
   description = "Configurable map of lambda timeouts"
-  default = {}
+  default     = {}
 }
 
 variable "lambda_memory_sizes" {
-  type = map(number)
+  type        = map(number)
   description = "Configurable map of lambda memory sizes"
-  default = {}
+  default     = {}
 }

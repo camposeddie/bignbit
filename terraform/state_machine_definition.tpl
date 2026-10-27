@@ -356,7 +356,6 @@
                       },
                       {
                         "ErrorEquals": [
-                          "Sandbox.Timedout",
                           "Lambda.Unknown"
                         ],
                         "BackoffRate": 2,

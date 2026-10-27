@@ -345,7 +345,7 @@ resource "aws_lambda_function" "send_to_gitc" {
   function_name = local.send_to_gitc_function_name
   role          = aws_iam_role.bignbit_lambda_role.arn
   timeout       = lookup(var.lambda_timeouts, "send_to_gitc", 15)
-  memory_size   = lookup(var.lambda_memory_sizes, "send_to_gitc", 128)
+  memory_size   = lookup(var.lambda_memory_sizes, "send_to_gitc", 256)
 
   environment {
     variables = {
@@ -379,7 +379,7 @@ resource "aws_lambda_function" "handle_gitc_response" {
   function_name = local.handle_gitc_response_function_name
   role          = aws_iam_role.bignbit_lambda_role.arn
   timeout       = lookup(var.lambda_timeouts, "handle_gitc_response", 45)
-  memory_size   = lookup(var.lambda_memory_sizes, "handle_gitc_response", 128)
+  memory_size   = lookup(var.lambda_memory_sizes, "handle_gitc_response", 256)
 
   environment {
     variables = {

@@ -152,8 +152,8 @@ This module uses the following input variables:
       "handle_big_result" = 1024
       "get_harmony_job_status" = 256
       "apply_opera_hls_treatment" = 512
-      "send_to_gitc" = 128
-      "handle_gitc_response" = 128
+      "send_to_gitc" = 256
+      "handle_gitc_response" = 256
   }
   ```
 

@@ -122,7 +122,7 @@ This module uses the following input variables:
 | harmony_job_status_backoff_rate      | number       | Backoff rate for Harmony job status checks                                                                                       | 1.0                                                                 |
 | harmony_job_status_max_delay_seconds | number       | Maximum delay in seconds for Harmony job status checks                                                                           | 20                                                                  |
 | lambda_timeouts                      | map(number)  | Configurable map of lambda timeouts whose keys are the unprefixed lambda name and the value is a number of seconds between 1 and 900 inclusive                                                                            | {}                                                                   |
-| lambda_memory_sizes                  | map(number)  | Configurable map of lambda memory whose keys are the unprefixed lambda name and the value is a number of bytes of memory sizes between  128 and 10240 inclusive                                                                           | {}                                                                   |
+| lambda_memory_sizes                  | map(number)  | Configurable map of lambda memory whose keys are the unprefixed lambda name and the value is a number of megabytes of memory sizes between  128 and 10240 inclusive                                                                           | {}                                                                   |
 
 ### Module Inputs Deep Dive
 
